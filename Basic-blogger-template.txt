@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+	<head>
+		<meta charset='UTF-8'/>
+		<meta content='width=device-width, initial-scale=1' name='viewport'/>
+		<b:include data='blog' name='all-head-content'/>
+		<!-- Your CSS styles go here -->
+		<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #444;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+		<b:skin><![CDATA[
+    
+      /* Your CSS here */
+    
+  ]]></b:skin>
+		<!-- End of your CSS -->
+	</head>
+	<body>
+		<header>
+			<h1>Your Blog Title</h1>
+		</header>
+		<nav>
+			<a href='/'>Home</a>
+			<a href='/p/about.html'>About</a>
+			<a href='/p/contact.html'>Contact</a>
+		</nav>
+		<main>
+			<b:section class='blog-posts' id='main' showaddelement='no'/>
+		</main>
+		<footer>
+			<p>&#169; 2024 Your Blog Name. All rights reserved.</p>
+		</footer>
+	</body>
+</html>
