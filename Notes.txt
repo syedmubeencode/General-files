@@ -1,0 +1,5 @@
+The <meta charset='UTF-8'/> tag ensures the document uses UTF-8 character encoding.
+The <meta content='width=device-width, initial-scale=1' name='viewport'/> tag is for responsive design, making the template adapt to different screen sizes.
+<b:include data='blog' name='all-head-content'/> is a Blogger tag that automatically includes required blog-specific elements in the <head> (such as feeds, title, and more).
+
+This CSS section defines the styling for the page. The styles control how the blog's body, header, nav, main, and footer elements look and behave.
