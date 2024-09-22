@@ -2,22 +2,9 @@
 <!DOCTYPE html>
 <html b:css='false' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 	<head>
-		<meta charset='UTF-8'/>
-		<meta content='width=device-width, initial-scale=1' name='viewport'/>
-		<b:include data='blog' name='all-head-content'/>
-		<!-- Your CSS styles go here -->
-		<style>
-    </style>
-		<b:skin><![CDATA[
-    
-      /* Your CSS here */
-    
-  ]]></b:skin>
-		<!-- End of your CSS -->
+		<b:skin><![CDATA[]]></b:skin>
 	</head>
 	<body>
-		<main>
-			<b:section class='blog-posts' id='main' showaddelement='no'/>
-		</main>
+		<b:section class='blog-posts' id='main' showaddelement='no'/>
 	</body>
 </html>
