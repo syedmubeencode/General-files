@@ -7,102 +7,6 @@
 		<b:include data='blog' name='all-head-content'/>
 		<!-- Your CSS styles go here -->
 		<style>
-      /*======================================
-//--//-->   ABOUT
-======================================*/
-
-      .about-mf .box-shadow-full {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-      }
-
-      .about-mf .about-img {
-        margin-bottom: 2rem;
-      }
-
-      .about-mf .about-img img {
-        margin-left: 10px;
-      }
-
-      .skill-mf .progress {
-        /* background-color: #cde1f8; */
-        margin: 0.5rem 0 1.2rem;
-        border-radius: 0;
-        height: 0.7rem;
-      }
-
-      .skill-mf .progress .progress-bar {
-        height: 0.7rem;
-        background-color: #ffbd39;
-      }
-
-      /* Animation styles */
-      #typing-animation {
-        position: relative;
-        font-size: 30px;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-        overflow: hidden;
-        white-space: nowrap;
-        animation: typing 3s steps(20, end) infinite;
-      }
-
-      #typing-animation:before {
-        content: "";
-        /* position: absolute; */
-        top: 0;
-        left: 0;
-        width: 0;
-        height: 100%;
-        background-color: #ccc;
-        animation: typing-cursor 0.5s ease-in-out infinite;
-      }
-
-      @keyframes typing {
-        from {
-          width: 0;
-        }
-
-        to {
-          width: 100%;
-        }
-      }
-
-      @keyframes typing-cursor {
-        from {
-          width: 5px;
-        }
-
-        to {
-          width: 0;
-        }
-      }
-
-      /* project image zoom effect */
-
-      .zoom-effect {
-        overflow: hidden;
-        transition: transform 0.3s ease-out;
-      }
-
-      .zoom-effect:hover {
-        transform: scale(1.1);
-      }
-
-      @media screen and (orientation: portrait) {
-        body {
-          margin-left: 5%;
-          margin-right: 5%;
-        }
-
-        .order-md-last {
-          visibility: hidden;
-        }
-
-        .about-img img {
-          content: url("images/me.png");
-        }
-      }
     </style>
 		<b:skin><![CDATA[
     
@@ -112,19 +16,8 @@
 		<!-- End of your CSS -->
 	</head>
 	<body>
-		<header>
-			<h1>Your Blog Title</h1>
-		</header>
-		<nav>
-			<a href='/'>Home</a>
-			<a href='/p/about.html'>About</a>
-			<a href='/p/contact.html'>Contact</a>
-		</nav>
 		<main>
 			<b:section class='blog-posts' id='main' showaddelement='no'/>
 		</main>
-		<footer>
-			<p>&#169; 2024 Your Blog Name. All rights reserved.</p>
-		</footer>
 	</body>
 </html>
